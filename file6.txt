@@ -1,0 +1,17 @@
+on:
+  push
+
+jobs:
+  my_first_job:
+    name: first-job
+    runs-on: ubuntu-slim
+
+    steps:
+    run: echo "first job completed succesfully"
+
+  my_second_job:
+    name: 2nd-job
+    runs-on: ubuntu-slim
+
+    steps:
+    run: echo "2nd job completed succesfully"
