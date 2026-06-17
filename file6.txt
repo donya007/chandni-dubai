@@ -11,6 +11,7 @@ jobs:
 
   my_second_job:
     name: 2nd-job
+    needs: my_first_job
     runs-on: ubuntu-slim
 
     steps:
