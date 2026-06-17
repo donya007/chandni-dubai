@@ -1,4 +1,3 @@
-name: github action trigerp ractice
 on:
   push:
 
@@ -6,7 +5,7 @@ jobs:
   example_matrix:
       strategy:
         matrix:
-          os: [ubuntu-latest, windows-latet, macos-latest]
+          os: [ubuntu-latest, windows-latest, macos-latest]
       name: matrix-job
       runs-on: ${{matrix.os}}
 
